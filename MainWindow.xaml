@@ -24,33 +24,33 @@
                 <ListViewItem Padding="0">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="Home" Margin="15"/>
-                        <TextBlock Text="Home" VerticalAlignment="Center"/>
+                        <TextBlock Text="关于" VerticalAlignment="Center"/>
                     </StackPanel>
                 </ListViewItem>
-                <TextBlock Text="System" Margin="15" FontWeight="DemiBold"/>
+                <TextBlock Text="功能" Margin="15" FontWeight="DemiBold"/>
                 <ListView FontSize="15">
                     <ListViewItem Padding="1">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Monitor" Margin="15"/>
-                            <TextBlock Text="Video" VerticalAlignment="Center"/>
+                            <TextBlock Text="视频处理" VerticalAlignment="Center"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Padding="1">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Headphones" Margin="15"/>
-                            <TextBlock Text="Audio" VerticalAlignment="Center"/>
+                            <TextBlock Text="音频处理" VerticalAlignment="Center"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Padding="1">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="MessageOutline" Margin="15"/>
-                            <TextBlock Text="Notifications" VerticalAlignment="Center"/>
+                            <TextBlock Text="淦妈的烂机车" VerticalAlignment="Center"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Padding="1">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="BatteryOutline" Margin="15"/>
-                            <TextBlock Text="Battery" VerticalAlignment="Center"/>
+                            <TextBlock Text="发不动" VerticalAlignment="Center"/>
                         </StackPanel>
                     </ListViewItem>
                 </ListView>
@@ -59,10 +59,13 @@
         <Grid Grid.Column="1" Background="White">
             <StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="15" HorizontalAlignment="Right">
-                    <TextBlock Text="Battery" VerticalAlignment="Center"/>
+                    <TextBlock Text="I Dont Know" VerticalAlignment="Center"/>
                     <Button Foreground="Black" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click">
                         <materialDesign:PackIcon Kind="Close"/>
                     </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="15" Background="#ff0000" Height="500">
+                  
                 </StackPanel>
             </StackPanel>
         </Grid>
